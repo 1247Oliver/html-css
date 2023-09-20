@@ -1,0 +1,18 @@
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    justify-items: center;
+}
+
+header{
+    background-color: black;
+    
+}
+header > ul{
+    justify-content: center;
+}
+header > button{
+
+}

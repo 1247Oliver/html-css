@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif   ;
+}
+main{
+    background-color: #180C23;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#esquerda{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#esquerda > h1{
+    color: #77ffc0;
+}
+#direita{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background-color:#2f2841 ;
+    border-radius: 14px;
+    box-shadow: 3px 5px 40px #00000056;
+}
+#card-login > h1{
+    color: #00ff88;
+    font-size: 800;
+    
+}
+.textfied{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+.textfied > input{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 0px 20px #00000056;
+    outline: none;
+    box-sizing: border-box; 
+}
+.textfied > label{
+    color: #f0ffffde;
+    margin: 10px;
+}
+#card-login > button{
+    width: 100%;
+    border: none;
+    margin: 25px;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background-color: #00ff88;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+    cursor: pointer;
+    padding: 15px;
+}
+.textfied > input::placeholder{
+    color: #f0ffff94;
+}
+img{
+    width: 25vw;
+    height: 50vh;
+}
+#esquerda > h1{
+    font-size: 7vh ;
+}

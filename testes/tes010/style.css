@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px 40px  ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav > a{
+    padding: 0px 10px;
+}
+header > a{
+    font-size: 25px;
+    font-weight: 700;
+}
+#animelist::after{
+    content: "↓";
+    font-weight: 900;
+}

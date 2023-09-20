@@ -1,0 +1,130 @@
+@font-face {
+    font-family:'droid' ;
+    src: url('fontes/idroid.otf')'format('opentype');'
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap');
+header{
+    background-color: #0C355C;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    outline: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #056647;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header > h1{
+    margin: 0px ;
+    padding: 0px 0px 2px ;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #055066;
+    text-shadow: 0px 0px 5px #000000;
+
+}
+header > p{
+    text-align: center;
+    color: #055066;
+    padding: 0px 0px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 2px #000000;
+}
+.item{
+    padding: 20px 5px 4px 5px;
+    text-decoration: none;
+    color: rgb(154, 154, 154) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item:hover{
+    color: white;
+    text-decoration: underline;
+}
+main{
+    background-color: white;
+    margin: 0px 200px;
+    padding: 30px;
+
+    width: 900px ;
+}
+#title1{
+    margin: 0px;
+    font-family: 'droid';
+    color: #004F4C;
+    text-shadow: 0px 0px 2px black;
+}
+.title2{
+    color: #004F4C;
+    background-color: #0566476b;
+}
+strong{
+    color:#9C3700;
+}
+#inter{
+    background-color: #0C355C;
+}
+#v{
+    padding: 20px;
+   
+}
+#inter2{
+    background-color:#015238 ;
+    border-radius: 15px;
+}
+#inter3{
+    background-color:#055066 ;
+    border-radius: 15px 15px;
+    
+}
+
+#f{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#list1{
+    margin: 40px;
+}
+#list2{
+    margin: 40px;
+}
+#list1 > ul{
+    list-style:none;
+    background-color: white;
+    padding: 20px 20px ;
+    border-radius: 15px;
+}
+
+#list2 > ul{
+    list-style: none;
+    background-color: white;
+    padding: 20px 20px ;
+    border-radius: 15px
+}
+    
+#a{
+    color: white;
+    margin: 2px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    text-shadow: 0px 0px 4px black;
+}
+.o{
+    color: white;
+    padding: 4px;
+}
+footer{
+    background-color: #000000;
+
+}
+#i{
+    color: white;
+    text-align: center;
+    margin: 0px;
+}

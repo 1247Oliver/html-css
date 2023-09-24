@@ -1,0 +1,117 @@
+/*import de fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+/*fazendo o reset da pagina*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+body{
+    font-family: var(--font3);
+}
+a{
+    text-decoration: none;
+}
+/* fim o reset*/
+
+/*variaveis*/
+:root{
+    --font1: 'Passion One';
+    --font2: 'Sriracha';
+    --font3: Verdana, Tahoma, sans-serif;
+}
+
+/*cabeçalho*/
+header{
+    background: black;
+    height: 268px;
+    text-align: center;
+}
+header > h1{
+    color: white;
+    font-size: 10vw;
+    font-family: var(--font1);
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header > p{
+    margin: auto;
+    color: white;
+    font-size: 1.2em;
+}
+header > p > a{
+    color: white;
+    font-weight: bolder;
+}
+header > p > a:hover{
+    text-decoration: underline;
+}
+/*fim do cabeçalho*/
+
+/*conteudo*/
+main{
+    padding: 50px 30px;
+    margin: 35px;
+}
+article{
+    margin: 20px;
+}
+.normal{
+    font-family: var(--font2);
+    font-size: 3.5vw;
+}
+#img1{
+    font-family: var(--font2);
+    font-size: 3.5vw;
+    background-image: url(img/background001.jpg);
+    min-width: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#img1 > article{
+    display: inline-block;
+    background-color: black;
+    opacity: 0.7;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+#img2{
+    font-family: var(--font2);
+    font-size: 3.5vw;
+    background-image: url(img/background002.jpg);
+    min-width: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#img2 > article{
+    display: inline-block;
+    background-color: black;
+    opacity: 0.7;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+/*fim do conteudo*/
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+footer > p > a{
+    color: white;
+    font-weight: bolder;
+}
+footer > p > a:hover{
+    text-decoration: underline;
+}
